@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateProfilesTable extends Migration
+class CreateStaffQulificationTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,13 +13,14 @@ class CreateProfilesTable extends Migration
      */
     public function up()
     {
-        Schema::create('profiles', function (Blueprint $table) {
+        Schema::create('staff_qulificaion', function (Blueprint $table) {
             $table->id();
-            $table->integer('user_id');
-            $table->integer('school_id');
-            $table->string('first_name');
-            $table->string('last_name');
-            $table->string('middle_name');
+            $table->integer('staff_id');
+            $table->string('name');
+            $table->string('type');
+            $table->date('start_date');
+            $table->date('end_date');
+            $table->string('institution');
             $table->timestamps();
         });
     }
@@ -31,6 +32,6 @@ class CreateProfilesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('profiles');
+        Schema::dropIfExists('staff_qulificaion');
     }
 }
