@@ -35,121 +35,106 @@
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
                             <a href="pages/layout/top-nav.html" class="nav-link">
-                                <i class="far fa-sticky-note nav-icon"></i>
-                                <p>Portal notes</p>
+                                {{-- <i class="far fa-sticky-note nav-icon"></i> --}}
+                                <p>Add a School</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="pages/layout/top-nav-sidebar.html" class="nav-link">
-                                <i class="far fa-stream nav-icon"></i>
-                                <p>Marking Periods</p>
+                                {{-- <i class="far fa-stream nav-icon"></i> --}}
+                                <p>School Information</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="pages/layout/boxed.html" class="nav-link">
-                                <i class="far fa-calendar nav-icon"></i>
+                                {{-- <i class="far fa-calendar nav-icon"></i> --}}
                                 <p>Calanders</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="pages/layout/fixed-sidebar.html" class="nav-link">
-                                <i class="far fa-calendar-alt nav-icon"></i>
+                                {{-- <i class="far fa-calendar-alt nav-icon"></i> --}}
+                                <p>Marking Periods</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="pages/layout/fixed-sidebar.html" class="nav-link">
+                                {{-- <i class="far fa-calendar-alt nav-icon"></i> --}}
                                 <p>Periods</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link">
-                                <i class="far fa-circle nav-icon"></i>
+                                {{-- <i class="far fa-circle nav-icon"></i> --}}
                                 <p>Grade Levels</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link">
-                                <i class="far fa-circle nav-icon"></i>
-                                <p>Section</p>
+                                {{-- <i class="far fa-circle nav-icon"></i> --}}
+                                <p>Sections</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link">
-                                <i class="far fa-circle nav-icon"></i>
-                                <p>Room</p>
+                                {{-- <i class="far fa-circle nav-icon"></i> --}}
+                                <p>Rooms</p>
                             </a>
                         </li>
-                        <li class="nav-item has-treeview">
+                        <li class="nav-item">
                             <a href="#" class="nav-link">
-                                <i class="nav-icon fas fa-school"></i>
-                                <p>
-                                    School
-                                    <i class="right fas fa-angle-left"></i>
-                                </p>
+                                {{-- <i class="far fa-circle nav-icon"></i> --}}
+                                <p>Portal Notes</p>
                             </a>
-                            <ul class="nav nav-treeview">
-                                <li class="nav-item">
-                                    <a href="pages/charts/chartjs.html" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>ChartJS</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="pages/charts/flot.html" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>Flot</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="pages/charts/inline.html" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>Inline</p>
-                                    </a>
-                                </li>
-                            </ul>
                         </li>
-                        <li class="nav-item has-treeview">
-                            <a href="#" class="nav-link">
-                                <i class="nav-icon fas fa-chart-pie"></i>
-                                <p>
-                                    Courses
-                                    <i class="right fas fa-angle-left"></i>
-                                </p>
+
+
+                    </ul>
+                </li>
+                <li class="nav-item has-treeview">
+                    <a href="#" class="nav-link">
+                        <i class="nav-icon fas fa-book-open"></i>
+                        <p>
+                            Courses
+                            <i class="right fas fa-angle-right"></i>
+                        </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a href="pages/charts/chartjs.html" class="nav-link">
+                                {{-- <i class="far fa-circle nav-icon"></i> --}}
+                                <p>Course Manager</p>
                             </a>
-                            <ul class="nav nav-treeview">
-                                <li class="nav-item">
-                                    <a href="pages/charts/chartjs.html" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>ChartJS</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="pages/charts/flot.html" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>Flot</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="pages/charts/inline.html" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>Inline</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="pages/charts/inline.html" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>Inline</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="pages/charts/inline.html" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>Inline</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="pages/charts/inline.html" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>Inline</p>
-                                    </a>
-                                </li>
-                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="pages/charts/flot.html" class="nav-link">
+                                {{-- <i class="far fa-circle nav-icon"></i> --}}
+                                <p>Course Catalog</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="pages/charts/inline.html" class="nav-link">
+                                {{-- <i class="far fa-circle nav-icon"></i> --}}
+                                <p>Print Catalog By Term</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="pages/charts/inline.html" class="nav-link">
+                                {{-- <i class="far fa-circle nav-icon"></i> --}}
+                                <p>Print Catalog By Grade level</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="pages/charts/inline.html" class="nav-link">
+                                {{-- <i class="far fa-circle nav-icon"></i> --}}
+                                <p>Print all Courses </p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="pages/charts/inline.html" class="nav-link">
+                                {{-- <i class="far fa-circle nav-icon"></i> --}}
+                                <p>Teacher Re-Assignment</p>
+                            </a>
                         </li>
                     </ul>
                 </li>
@@ -164,20 +149,32 @@
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
                             <a href="pages/charts/chartjs.html" class="nav-link">
-                                <i class="far fa-circle nav-icon"></i>
-                                <p>ChartJS</p>
+                                {{-- <i class="far fa-circle nav-icon"></i> --}}
+                                <p>Add a Student</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="pages/charts/flot.html" class="nav-link">
-                                <i class="far fa-circle nav-icon"></i>
-                                <p>Flot</p>
+                                {{-- <i class="far fa-circle nav-icon"></i> --}}
+                                <p>Student Information</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="pages/charts/inline.html" class="nav-link">
-                                <i class="far fa-circle nav-icon"></i>
-                                <p>Inline</p>
+                                {{-- <i class="far fa-circle nav-icon"></i> --}}
+                                <p>Group Assign </p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="pages/charts/inline.html" class="nav-link">
+                                {{-- <i class="far fa-circle nav-icon"></i> --}}
+                                <p>Student Re Enroll</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="pages/charts/inline.html" class="nav-link">
+                                {{-- <i class="far fa-circle nav-icon"></i> --}}
+                                <p>Enrollment Codes</p>
                             </a>
                         </li>
                     </ul>
@@ -191,6 +188,57 @@
                         </p>
                     </a>
                     <ul class="nav nav-treeview">
+
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>
+                              Staff
+                              <i class="right fas fa-angle-left"></i>
+                            </p>
+                          </a>
+                          <ul class="nav nav-treeview">
+                            <li class="nav-item">
+                              <a href="#" class="nav-link">
+                                {{-- <i class="far fa-dot-circle nav-icon"></i> --}}
+                                <p>Add a Staff</p>
+                              </a>
+                            </li>
+                            <li class="nav-item">
+                              <a href="#" class="nav-link">
+                                {{-- <i class="far fa-dot-circle nav-icon"></i> --}}
+                                <p>Staff Information</p>
+                              </a>
+                            </li>
+
+                          </ul>
+                        </li>
+
+                      </ul>
+                      <ul class="nav nav-treeview">
+
+                        <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>
+                              Parent
+                              <i class="right fas fa-angle-left"></i>
+                            </p>
+                          </a>
+                          <ul class="nav nav-treeview">
+
+                            <li class="nav-item">
+                              <a href="#" class="nav-link">
+                                {{-- <i class="far fa-dot-circle nav-icon"></i> --}}
+                                <p>Parent Information</p>
+                              </a>
+                            </li>
+
+                          </ul>
+                        </li>
+
+                      </ul>
+                    {{-- <ul class="nav nav-treeview">
                         <li class="nav-item">
                             <a href="pages/UI/general.html" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
@@ -239,7 +287,7 @@
                                 <p>Ribbons</p>
                             </a>
                         </li>
-                    </ul>
+                    </ul> --}}
                 </li>
                 <li class="nav-item has-treeview">
                     <a href="#" class="nav-link">
@@ -338,7 +386,7 @@
                     <a href="#" class="nav-link">
                         <i class="nav-icon far fa-envelope"></i>
                         <p>
-                            Mailbox
+                            Meassaging
                             <i class="fas fa-angle-left right"></i>
                         </p>
                     </a>
