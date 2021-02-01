@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateStaffQulificationTable extends Migration
+class CreateStaffQualificationsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,9 +13,10 @@ class CreateStaffQulificationTable extends Migration
      */
     public function up()
     {
-        Schema::create('staff_qulificaion', function (Blueprint $table) {
+        Schema::create('staff__qualifications', function (Blueprint $table) {
             $table->id();
-            $table->integer('staff_id');
+            $table->bigInteger('staff_id')->unsigned();
+            $table->foreign('staff_id')->references('id')->on('staff')->onDelete('cascade');
             $table->string('name');
             $table->string('type');
             $table->date('start_date');
@@ -32,6 +33,6 @@ class CreateStaffQulificationTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('staff_qulificaion');
+        Schema::dropIfExists('staff__qualifications');
     }
 }

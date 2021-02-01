@@ -8,4 +8,9 @@ use Illuminate\Database\Eloquent\Model;
 class Address extends Model
 {
     use HasFactory;
+    protected $table = "address";
+
+    public function user(){
+        return $this->belongsTo('App\Models\User');
+    }
 }

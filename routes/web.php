@@ -22,6 +22,13 @@ Route::get('/login', function () {
 Route::get('/register', function () {
     return view('auth.register');
 });
+
+
 Auth::routes();
+
+// Route::get('/user', function(){
+//     factory(\App\Models\User::class, 3)->create();
+
+// });
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
