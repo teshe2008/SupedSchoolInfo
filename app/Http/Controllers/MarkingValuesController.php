@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Marking_Value;
+use App\Models\marking__values;
 use Illuminate\Http\Request;
 
-class MarkingValueController extends Controller
+class MarkingValuesController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -41,10 +41,10 @@ class MarkingValueController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Marking_Value  $marking_Value
+     * @param  \App\Models\marking__values  $marking__values
      * @return \Illuminate\Http\Response
      */
-    public function show(Marking_Value $marking_Value)
+    public function show(marking__values $marking__values)
     {
         //
     }
@@ -52,10 +52,10 @@ class MarkingValueController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Marking_Value  $marking_Value
+     * @param  \App\Models\marking__values  $marking__values
      * @return \Illuminate\Http\Response
      */
-    public function edit(Marking_Value $marking_Value)
+    public function edit(marking__values $marking__values)
     {
         //
     }
@@ -64,10 +64,10 @@ class MarkingValueController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Marking_Value  $marking_Value
+     * @param  \App\Models\marking__values  $marking__values
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Marking_Value $marking_Value)
+    public function update(Request $request, marking__values $marking__values)
     {
         //
     }
@@ -75,10 +75,10 @@ class MarkingValueController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Marking_Value  $marking_Value
+     * @param  \App\Models\marking__values  $marking__values
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Marking_Value $marking_Value)
+    public function destroy(marking__values $marking__values)
     {
         //
     }

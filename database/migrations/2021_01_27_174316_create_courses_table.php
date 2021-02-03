@@ -19,7 +19,6 @@ class CreateCoursesTable extends Migration
             $table->unsignedBigInteger('school_id');
             $table->string('short_name');
             $table->string('course_name');
-            $table->foreign('school_id')->references('id')->on('schools');
             $table->timestamps();
         });
     }

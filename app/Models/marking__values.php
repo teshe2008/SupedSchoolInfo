@@ -5,7 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Marking_Value extends Model
+class marking__values extends Model
 {
     use HasFactory;
 }
