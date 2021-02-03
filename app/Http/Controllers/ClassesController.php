@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Clas;
+use App\Models\Classes;
 use Illuminate\Http\Request;
 
-class ClasController extends Controller
+class ClassesController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -41,10 +41,10 @@ class ClasController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Clas  $clas
+     * @param  \App\Models\Classes  $classes
      * @return \Illuminate\Http\Response
      */
-    public function show(Clas $clas)
+    public function show(Classes $classes)
     {
         //
     }
@@ -52,10 +52,10 @@ class ClasController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Clas  $clas
+     * @param  \App\Models\Classes  $classes
      * @return \Illuminate\Http\Response
      */
-    public function edit(Clas $clas)
+    public function edit(Classes $classes)
     {
         //
     }
@@ -64,10 +64,10 @@ class ClasController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Clas  $clas
+     * @param  \App\Models\Classes  $classes
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Clas $clas)
+    public function update(Request $request, Classes $classes)
     {
         //
     }
@@ -75,10 +75,10 @@ class ClasController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Clas  $clas
+     * @param  \App\Models\Classes  $classes
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Clas $clas)
+    public function destroy(Classes $classes)
     {
         //
     }
