@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\RoleController;
+use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
 /*
@@ -26,8 +28,14 @@ Route::get('/register', function () {
 
 Auth::routes();
 
-// Route::get('/user', function(){
-//     factory(\App\Models\User::class, 3)->create();
+Route::get('/user', function(){
+    return view('auth.Users Module.index');
+
+
+});
+// Route::group(['middleware' => ['auth']], function() {
+//     Route::resource('roles', RoleController::class);
+//     Route::resource('users', UserController::class);
 
 // });
 
