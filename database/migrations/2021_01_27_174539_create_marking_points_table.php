@@ -15,6 +15,10 @@ class CreateMarkingPointsTable extends Migration
     {
         Schema::create('marking_points', function (Blueprint $table) {
             $table->id();
+            $table->string('type');
+            $table->unsignedBigInteger('marking_period_id');
+            $table->integer('weights');
+            $table->foreign('marking_period_id')->references('id')->on('marking_periods');
             $table->timestamps();
         });
     }
