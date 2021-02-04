@@ -35,7 +35,7 @@
         <thead>
           <tr>
             <th style="width: 10px">#</th>
-            <th>Rolles</th>
+            <th>Roles</th>
             <th>Action</th>
           </tr>
         </thead>
