@@ -34,7 +34,11 @@
 {!! Form::open(array('route' => 'users.store','method'=>'POST')) !!}
 <div class="card card-primary">
     <!--   <!-- general form elements -->
-      <div class="card card-primary">
+    <div class="col-md-7">
+      <div class="card card-secondary">
+        <div class="card-header">
+            <h3 class="card-title">User Registration</h3>
+          </div>
         <form role="form">
           <div class="card-body">
             <div class="form-group">

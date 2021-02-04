@@ -193,6 +193,12 @@
                                 <p>Manage Users</p>
                             </a>
                         </li>
+                        <li class="nav-item">
+                            <a href="{{ route('roles.index') }}" class="nav-link">
+                                {{-- <i class="far fa-circle nav-icon"></i> --}}
+                                <p>Manage Role</p>
+                            </a>
+                        </li>
 
                         <li class="nav-item has-treeview">
                           <a href="#" class="nav-link">
