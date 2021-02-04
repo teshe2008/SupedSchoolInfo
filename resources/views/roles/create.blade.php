@@ -2,16 +2,17 @@
 
 
 @section('content')
-<div class="row">
-    <div class="col-lg-12 margin-tb">
-        <div class="pull-left">
-            <h2>Create New Role</h2>
-        </div>
-        <div class="pull-right">
-            <a class="btn btn-primary" href="{{ route('roles.index') }}"> Back</a>
-        </div>
+<section class="content-header">
+<div class="container-fluid">
+    <div class="row mb-2">
+      <div class="col-sm-6">
+        <h1>Create New Role</h1>
+      </div>
+      <div class="col-sm-6">
+        <a class="btn btn-primary float-right" href="{{ route('roles.index') }}"> Back</a>
     </div>
-</div>
+  </div><!-- /.container-fluid -->
+</section>
 
 
 @if (count($errors) > 0)
@@ -27,10 +28,17 @@
 
 
 {!! Form::open(array('route' => 'roles.store','method'=>'POST')) !!}
-<div class="row">
-    <div class="col-xs-12 col-sm-12 col-md-12">
+<div class="card card-primary">
+    <!--   <!-- general form elements -->
+    <div class="col-md-7">
+      <div class="card card-secondary">
+        <div class="card-header">
+            <h3 class="card-title">Role Registration</h3>
+          </div>
+      <form role="form">
+            <div class="card-body">
         <div class="form-group">
-            <strong>Name:</strong>
+            <label for="exampleInputEmail1">Name</label>
             {!! Form::text('name', null, array('placeholder' => 'Name','class' => 'form-control')) !!}
         </div>
     </div>
@@ -49,7 +57,10 @@
         <button type="submit" class="btn btn-primary">Submit</button>
     </div>
 </div>
+</form>
 {!! Form::close() !!}
+      </div>
+    </div>
 
 
 

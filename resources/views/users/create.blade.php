@@ -2,6 +2,7 @@
 
 
 @section('content')
+
 <section class="content-header">
 <div class="container-fluid">
     <div class="row mb-2">
@@ -10,11 +11,7 @@
       </div>
       <div class="col-sm-6">
         <a class="btn btn-primary float-right" href="{{ route('users.index') }}"> Back</a>
-
-          {{-- <a class="btn btn-success float-right" href="{{ route('users.create') }}"> Create New User</a> --}}
-
       </div>
-
     </div>
   </div><!-- /.container-fluid -->
 </section>
